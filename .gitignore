@@ -1,9 +1,14 @@
 Directories
 
+Release
 Debug
 stuff
 
 Files
 
 *.o
+*.d
+*.mk
+.cproject
+.project
 Makefile
