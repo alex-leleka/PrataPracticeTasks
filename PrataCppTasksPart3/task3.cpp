@@ -13,9 +13,9 @@ int main3()
 	cin.getline(str_lname, Max_size);
 	// max size of result is 19 + 19 + 2 = 40 and +1 for ending zero
 	char str_full_name[Max_size*2 + 1];
-	const char * str_delim = ", ";
+	const char * Str_delim = ", ";
 	strcpy(str_full_name, str_lname);
-	strcpy(&str_full_name[strlen(str_full_name)], str_delim);
+	strcpy(&str_full_name[strlen(str_full_name)], Str_delim);
 	strcpy(&str_full_name[strlen(str_full_name)], str_fname);
 	cout << "Here's information in a single string: " << str_full_name;
 	return 0;
