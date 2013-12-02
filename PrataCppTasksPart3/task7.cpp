@@ -7,7 +7,7 @@ struct PizzaInfo
 	unsigned int diameter;
 	float weight;
 };
-int main()
+int main7()
 {
 	using namespace std;
 	PizzaInfo some_pizza;
